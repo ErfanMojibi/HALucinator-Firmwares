@@ -1,0 +1,4 @@
+../lwip/port/enet_ethernetif.c:69:6:ethernetif_phy_init	48	static
+../lwip/port/enet_ethernetif.c:139:6:ethernetif_input	16	static
+../lwip/port/enet_ethernetif.c:158:7:ethernetif_get_enet_base	0	static
+../lwip/port/enet_ethernetif.c:202:7:ethernetif_init	24	static

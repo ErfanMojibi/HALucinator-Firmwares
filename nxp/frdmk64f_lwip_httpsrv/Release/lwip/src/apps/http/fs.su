@@ -1,0 +1,3 @@
+../lwip/src/apps/http/fs.c:57:1:fs_open	16	static
+../lwip/src/apps/http/fs.c:97:1:fs_close	0	static
+../lwip/src/apps/http/fs.c:172:1:fs_bytes_left	0	static

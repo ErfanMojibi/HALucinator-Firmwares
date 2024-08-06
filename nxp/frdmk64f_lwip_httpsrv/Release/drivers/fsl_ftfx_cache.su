@@ -1,0 +1,6 @@
+../drivers/fsl_ftfx_cache.c:151:10:FTFx_CACHE_Init	8	static
+../drivers/fsl_ftfx_cache.c:213:10:FTFx_CACHE_PflashSetPrefetchSpeculation	0	static
+../drivers/fsl_ftfx_cache.c:294:10:FTFx_CACHE_PflashGetPrefetchSpeculation	8	static
+../drivers/fsl_ftfx_cache.c:462:6:fmc_flash_cache_clear	16	static
+../drivers/fsl_ftfx_cache.c:535:6:fmc_flash_prefetch_speculation_clear	16	static
+../drivers/fsl_ftfx_cache.c:180:10:FTFx_CACHE_ClearCachePrefetchSpeculation	8	static
