@@ -59,7 +59,7 @@ main-build: frdmk64f_lwip_tcpecho_bm.axf
 frdmk64f_lwip_tcpecho_bm.axf: $(OBJS) $(USER_OBJS) makefile $(OPTIONAL_TOOL_DEPS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -Xlinker -Map="frdmk64f_lwip_tcpecho_bm.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -T frdmk64f_lwip_tcpecho_bm_Release.ld -o "frdmk64f_lwip_tcpecho_bm.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -Xlinker -Map="frdmk64f_lwip_tcpecho_bm.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m3 -mthumb -T frdmk64f_lwip_tcpecho_bm_Release.ld -o "frdmk64f_lwip_tcpecho_bm.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
